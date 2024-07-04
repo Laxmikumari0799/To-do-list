@@ -142,8 +142,13 @@ h1 {
     margin-bottom: 5px;
 }
 
-.task:last-child {
-    border-bottom: none;
+.task.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.task .task-checkbox {
+    margin-right: 10px;
 }
 
 .task input[type="text"] {
